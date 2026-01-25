@@ -1,5 +1,5 @@
 // Константы для Giphy API
-const GIPHY_API_KEY = 'r7phsnCWf2U55hLerLPkRgWS0gtIjpoJ';
+const GIPHY_API_KEY = '6s0nMq1tux3mIABolsATleRA4kIfYE7q';
 const GIPHY_API_URL = 'https://api.giphy.com/v1/gifs/random';
 
 // Функция для получения случайной гифки с котами
@@ -134,7 +134,7 @@ let newsItems = [];
 let currentNewsIndex = 0;
 let isNewsAnimating = false;
 
-const SHEET_ID = '1CCOR3iJhLsZP4h0yBDC-kd9JvaY0JsbEluJIz2y5aSs';
+const SHEET_ID = '1W6V6Pt--E6crf-Ya9ZaWdz-WfEHD-z8F';
 
 async function fetchNewsFromGoogleSheets() {
     try {
@@ -416,7 +416,7 @@ function updateDateTime() {
     setTimeout(syncHeaderBlocks, 50);
 }
 
-const API_KEY = "1df2eb92e9b510458f1e2edebaace0eb";
+const API_KEY = "734b16cc98ba3d5df3ba5063076277cd";
 const CITY = "Moscow";
 
 function getWeatherImage(weatherCode, isDay) {
