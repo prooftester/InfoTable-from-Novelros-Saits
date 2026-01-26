@@ -261,7 +261,7 @@ function createDemoNews() {
 
 async function initializeNews() {
     let loadedNews = await fetchNewsFromGoogleSheets();
-    
+    console.log("test");
     if (!loadedNews || loadedNews.length === 0) {
         loadedNews = createDemoNews();
     }
@@ -417,7 +417,7 @@ function updateDateTime() {
 }
 
 const API_KEY = "734b16cc98ba3d5df3ba5063076277cd";
-const CITY = "Moscow";
+const CITY = "Berlin";
 
 function getWeatherImage(weatherCode, isDay) {
     const weatherImages = {
