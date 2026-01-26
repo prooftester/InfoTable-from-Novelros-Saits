@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 @font-face {
     font-family: "Helvetica";
     src: url("./fonts/helveticaneue.woff2") format("woff2"),
          url("./fonts/helveticaneue.woff") format("woff");
+=======
+e@font-face {
+    font-family: "Helveticaneue";
+    src: url("./fonts/Helveticaneue.woff2") format("woff2"),
+         url("./fonts/Helveticaneue.woff") format("woff");
+>>>>>>> 40050914183152fc9826952a0f0165de0a01502c
     font-weight: normal;
     font-style: normal;
 }
